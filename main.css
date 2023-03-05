@@ -1,0 +1,102 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 110px;
+    padding: 300px;
+}
+
+h2 {
+    display: flex;
+    justify-content: start;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+h3 {
+    display: flex;
+    justify-content: start;
+    padding-left: 70px;
+    position: relative;
+    bottom: 30px;
+}
+
+p {
+    display: flex;
+    justify-content: start;
+    padding-left: 70px;
+    position: relative;
+    bottom: 30px;
+    padding-right: 800px;
+}
+
+.row {
+    display: flex;
+    padding-left: 70px;
+    gap: 40px;
+}
+
+img {
+    height: 600px;
+}
+
+.cookies {
+    width: 400px;
+    padding-top: 5px;
+    height: 590px;
+}
+
+.puzzle {
+    width: 400px;
+    padding-top: 5px;
+    height: 590px;
+}
+
+h4 {
+    font-size: 60px;
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
